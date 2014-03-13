@@ -1,0 +1,12 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@github.com:zengbobo0805/SeeJoPlayer.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "upstream"]
+	url = git@github.com:zengbobo0805/SeeJoPlayer.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
